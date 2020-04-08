@@ -49,7 +49,7 @@ milk -> next = pear;</br>
 1. 将新的节点的next指针指向插入位置后的节点
 2. 将插入位置前的节点的next指针指向插入节点。
 
-https://img-camp.banyuan.club/cc002/chapter3/3-5.png?x-oss-process=image/resize,w_500/sharpen,100
+![add](https://img-camp.banyuan.club/cc002/chapter3/3-5.png?x-oss-process=image/resize,w_500/sharpen,100)
 
 **如果先执行步骤二，即先将插入位置前节点的next指针先指向插入节点，会导致插入位置后续的部分链表丢失，无法实现步骤一**
 
@@ -58,4 +58,4 @@ https://img-camp.banyuan.club/cc002/chapter3/3-5.png?x-oss-process=image/resize,
 
 1. 将节点从链表中摘除；
 2. 手动释放节点，回收被节点占用的存储空间。
-https://img-camp.banyuan.club/cc002/chapter3/3-6.png?x-oss-process=image/resize,w_500/sharpen,100
+![delet](https://img-camp.banyuan.club/cc002/chapter3/3-6.png?x-oss-process=image/resize,w_500/sharpen,100)
